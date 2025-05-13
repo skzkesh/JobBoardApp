@@ -37,9 +37,10 @@ Using **TDD**, we wrote unit and UI tests before implementing new features to en
 - PayPal SDK (for simulated payment integration)
 
 ---
+### Directory
 
 - All UI and unit tests is accessable at https://github.com/skzkesh/JobBoardApp/tree/main/androidTest/java/com/example/template
-- Code files is accessable through 
+- Code files is accessable at https://github.com/skzkesh/JobBoardApp/tree/main/main/java/com/example/template
 
 ## Disclaimer
 
