@@ -1,24 +1,43 @@
-# Quick Cash #
-## Overview
-This repository contains the code files for java mobil application developed for a group project from CS3130 Introduction to Software Engineering. This mobile application is developed using Android Studio with Java as the language. Quick Cash is a mobile application that is use for employer to post jobs and for user to find a job. The application is complement with filter system that allows user to find a specific job according to their current location, keywords, and category. For payment, the app is connected to PayPal to simulates payment. Additionally, this app is connected to the Google Firebase as a database to store user information according to their job posts or applications information.
+# Quick Cash
 
-The project was build as an implementation of the best coding practices. The project was developed in a group with Agile Methodolies, means that the work is done iteratively over 3 iterations, where each iteration consist of 3 or 4 weeks long. The focus of the project is to deliver a working solution continuously. We also developed it according to the CI/CD which means that every code push to the repository, will need to go through assemble and debug tests to prevent pushing failing code. We also take an extreme programming approach where we successfully ensure fast and continuous development by pushing on average 2.5 commits daily. Apart from the practical implementation (?), we are also focusing implementing SOLID principles, appropriate design pattern.
+Project Demo Link: 
+
+## Overview
+
+This repository contains the source code for **Quick Cash**, a Java-based mobile application developed as part of a group project for **CS3130: Introduction to Software Engineering**. The application was built using **Android Studio** with Java and follows key software engineering practices such as **Agile methodology**, **Test-Driven Development (TDD)**, and **Extreme Programming (XP)**.
+
+**Quick Cash** serves as a platform where **employers can post jobs** and **users (employees) can browse and apply for jobs**. The app features a **smart filtering system** that enables users to search for jobs based on their **current location**, **keywords**, and **job category**.
+
+For payment, the app integrates **PayPal** to simulate transactions between employers and employees. Additionally, **Google Firebase** is used to manage authentication, job data, and user information.
+
+The development process was conducted over **three iterations**, each lasting 3–4 weeks. At the beginning of each iteration, the client provided a **story card** outlining the feature requirements. Our team then translated those into **user acceptance tests** and **engineering tasks**, with a strong focus on delivering functional solutions at every stage.
+
+Using **TDD**, we wrote unit and UI tests before implementing new features to ensure code reliability. The project also adopted **CI/CD pipelines via GitLab**, where every code push had to pass build and test processes before being merged. On average, we committed code **2.5 times daily**, enabling rapid and continuous development. Furthermore, the application design follows **SOLID principles** and utilizes appropriate **design patterns** to enhance code maintainability.
+
+---
 
 ## Features
-- **User Authentication**: Sign up and log in as an employer or employee. The login credentials will be saved in a Firebase
-- **Job Posting**: An employer can create a new job posts which includes the job description (title, category, salary, description, and location). The new job post will appear in the dashboard along with all other job posts
-- **Job Application**: An employee that is interested can apply for one or many job posts that are available. When the employer accept them, the job status will change to 'to-do' until the employee report that they are finish with the job.
-- **Job Applicants List**: The list of applicants of a job will be displayed for the employer to 'accept' them.
-- **Payment Feature**: This app is integrated with PayPal payment system. Once an employee finish their work, they need to change click a done button to change the job status. The status will also be updated to the employer so that they are directed to the PayPal to complete their payment. Once done, the job status will be 'completed'
-- **Filter System**: The user can filter their job findings according to the keywords, location, or preferred category.
+
+- **User Authentication**: Sign up and log in as an employer or employee. Credentials are securely managed via Firebase Authentication.
+- **Job Posting**: Employers can create job posts including title, category, salary, description, and location. New job listings appear on the main dashboard.
+- **Job Application**: Employees can apply to one or multiple job posts. Once accepted, the job status changes to "To-Do" until marked as completed by the employee.
+- **Applicant Management**: Employers can view a list of applicants for each job and accept suitable candidates.
+- **Payment Integration**: Once a job is completed, the employer is directed to PayPal to process the payment. Upon completion, the job status is updated to "Completed."
+- **Advanced Filtering**: Users can filter job listings based on location, keywords, or job category for a more targeted search.
+
+---
 
 ## Installation
+
 ### Prerequisites
+
 - Android Studio
-- Firebase
+- Firebase (Authentication & Realtime Database)
 - Google Location API
-  
-The project also uses the following libraries:
-- `axios` - for making HTTP requests
-- `@react-native-async-storage/async-storage` - for local data storage
-- `expo` - for developing and testing
+- PayPal SDK (for simulated payment integration)
+
+---
+
+## Disclaimer
+
+The full project is not yet publicly available to be pulled due to security considerations. However, this repository includes the complete codebase for each page and its corresponding layout. We hope this serves as a useful reference for developing clean, well-structured Java applications in Android.
