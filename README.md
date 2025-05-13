@@ -38,6 +38,9 @@ Using **TDD**, we wrote unit and UI tests before implementing new features to en
 
 ---
 
+- All UI and unit tests is accessable through "androidTest/java/com/example/template"
+- Code files is accessable through 
+
 ## Disclaimer
 
 The full project is not yet publicly available to be pulled due to security considerations. However, this repository includes the complete codebase for each page and its corresponding layout. We hope this serves as a useful reference for developing clean, well-structured Java applications in Android.
