@@ -38,7 +38,7 @@ Using **TDD**, we wrote unit and UI tests before implementing new features to en
 
 ---
 
-- All UI and unit tests is accessable through "androidTest/java/com/example/template"
+- All UI and unit tests is accessable at https://github.com/skzkesh/JobBoardApp/tree/main/androidTest/java/com/example/template
 - Code files is accessable through 
 
 ## Disclaimer
