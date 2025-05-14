@@ -1,7 +1,6 @@
 # Quick Cash
 
-Project Demo Link: 
-
+Group Project Demo Link: [Quick Cash](https://drive.google.com/file/d/10A8xOklsHASQ0g_V_6k5yrmpYnncgt2T/view?usp=sharing)
 ## Overview
 
 This repository contains the source code for **Quick Cash**, a Java-based mobile application developed as part of a group project for **CS3130: Introduction to Software Engineering**. The application was built using **Android Studio** with Java and follows key software engineering practices such as **Agile methodology**, **Test-Driven Development (TDD)**, and **Extreme Programming (XP)**.
@@ -44,4 +43,4 @@ Using **TDD**, we wrote unit and UI tests before implementing new features to en
 
 ## Disclaimer
 
-The full project is not yet publicly available to be pulled due to security considerations. However, this repository includes the complete codebase for each page and its corresponding layout. We hope this serves as a useful reference for developing clean, well-structured Java applications in Android.
+The full project is not yet publicly available to be pulled due to security configuration. However, this repository includes the complete codebase for each page and its corresponding layout. We hope this serves as a useful reference for developing clean, well-structured Java applications in Android.
